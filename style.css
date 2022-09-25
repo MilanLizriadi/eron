@@ -25,10 +25,18 @@ hr {
 
 .call-us-now-img {
   position: absolute;
-  top: 90%;
+  top: 80%;
   left: 50%;
   transform: translate(-50%, -90%);
   width: 30%;
+}
+
+.jumbotron {
+  background-image: url('./img/hero-img-1.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  height: 43rem;
 }
 
 .about {
@@ -54,9 +62,9 @@ hr {
 @media (max-width:450px) {
   .call-us-now-img {
     position: absolute;
-    top: 20%;
+    top: 60%;
     left: 50%;
     transform: translate(-50%, -20%);
-    width: 40%;
+    width: 60%;
   }
 }
