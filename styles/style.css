@@ -32,7 +32,7 @@ hr {
 }
 
 .jumbotron {
-  background-image: url('./img/hero-img-1.jpg');
+  background-image: url('../img/hero-img-1.jpg');
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
