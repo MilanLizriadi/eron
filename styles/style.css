@@ -12,6 +12,10 @@ section {
   padding-top: 8rem;
 }
 
+.text-black {
+  color: black;
+}
+
 .bg-gray {
   background: #E5E5E5;
 }
@@ -60,8 +64,6 @@ section {
 .product-box {
   display: flex;
   align-items: center;
-  background: url(../img/hero-img-2.png);
-  background-size: cover;
   position: relative;
 }
 
@@ -81,6 +83,17 @@ section {
 .footer-links:hover {
   opacity: .9;
   transition: 0.3s;
+}
+
+#pylon-sign-img {
+  background: url(../img/products/pylon-sign.png);
+  background-size: cover;
+}
+
+#huruf-timbul-img {
+  background: url(../img/products/huruf-timbul.png);
+  background-size: cover;
+  background-position: 0 650px;
 }
 
 @media (max-width:700px) {
