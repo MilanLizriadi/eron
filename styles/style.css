@@ -8,6 +8,10 @@ hr {
   color: black;
 }
 
+section {
+  padding-top: 8rem;
+}
+
 .bg-gray {
   background: #E5E5E5;
 }
@@ -21,6 +25,15 @@ hr {
   color: white;
   text-decoration: none;
   font-size: 32px;
+
+  transition: 0.3s;
+}
+
+.eron-com-text:hover {
+  color: white;
+  opacity: .9;
+
+  transition: 0.3s;
 }
 
 .call-us-now-img {
@@ -47,24 +60,40 @@ hr {
 .product-box {
   display: flex;
   align-items: center;
+  background: url(../img/hero-img-2.png);
+  background-size: cover;
+  position: relative;
 }
 
-.product-box h3 {
-  padding-left: 5rem;
+.product-text {
   color: white;
   font-weight: bold;
+  position: absolute;
+  left: 15rem;
 }
 
 .footer-links {
   text-decoration: none;
+  transition: 0.3s;
+  display: block;
 }
 
-@media (max-width:450px) {
+.footer-links:hover {
+  opacity: .9;
+  transition: 0.3s;
+}
+
+@media (max-width:700px) {
   .call-us-now-img {
     position: absolute;
     top: 60%;
     left: 50%;
     transform: translate(-50%, -20%);
     width: 60%;
+  }
+
+  .product-text {
+    left: 5rem;
+    font-size: 1.3rem;
   }
 }
