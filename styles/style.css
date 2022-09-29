@@ -68,6 +68,7 @@ section {
 }
 
 .product-text {
+  text-shadow: 3px 3px 0 rgba(0, 0, 0, 0.5);
   color: white;
   font-weight: bold;
   position: absolute;
@@ -85,7 +86,43 @@ section {
   transition: 0.3s;
 }
 
-#pylon-sign-img {
+#product-1 {
+  background-image: url(../img/products/1.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+#product-2 {
+  background-image: url(../img/products/2.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+#product-3 {
+  background-image: url(../img/products/3.jpg);
+  background-size: cover;
+  background-position: center 500px;
+}
+
+#product-4 {
+  background-image: url(../img/products/4.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+#product-5 {
+  background-image: url(../img/products/5.jpg);
+  background-size: cover;
+  background-position: center 1200px;
+}
+
+#product-6 {
+  background-image: url(../img/products/6.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+/* #pylon-sign-img {
   background: url(../img/products/pylon-sign.png);
   background-size: cover;
 }
@@ -94,7 +131,7 @@ section {
   background: url(../img/products/huruf-timbul.png);
   background-size: cover;
   background-position: 0 650px;
-}
+} */
 
 @media (max-width:700px) {
   .call-us-now-img {
