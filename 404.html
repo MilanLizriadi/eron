@@ -11,6 +11,12 @@
     integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
 
   <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
     .not-found-text {
       position: absolute;
       top: 50%;
@@ -40,8 +46,13 @@
     }
 
     @media (max-width:700px) {
+      .not-found-text {
+        top: 40%;
+      }
+
       a {
-        top: 75%;
+        top: 65%;
+        left: 45%;
       }
     }
   </style>
