@@ -1,0 +1,83 @@
+.text-white {
+  color: #ffffff;
+}
+
+.no-text-decoration {
+  text-decoration: none;
+}
+
+.font-bold {
+  font-weight: bold;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.lowercase {
+  text-transform: lowercase;
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
+
+.text-black {
+  color: #000000;
+}
+
+.text-red {
+  color: #ff0000;
+}
+
+.text-blue {
+  color: #0000ff;
+}
+
+.text-green {
+  color: #00ff00;
+}
+
+.bg-gray {
+  background: #E5E5E5;
+}
+
+.bg-red {
+  background-color: #ff0000;
+}
+
+.bg-blue {
+  background-color: #0000ff;
+}
+
+.bg-green {
+  background-color: #00ff00;
+}
+
+.hidden {
+  display: none;
+}
+
+.flex {
+  display: flex;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.fixed {
+  position: fixed;
+}
+
+.relative {
+  position: relative;
+}
+
+.grid {
+  display: grid;
+}
+
+.block {
+  display: block;
+}
