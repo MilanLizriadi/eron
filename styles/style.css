@@ -2,6 +2,11 @@ body {
   background-color: #E5E5E5;
 }
 
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
 hr {
   font-size: 15px;
   line-height: 34px;
@@ -98,38 +103,40 @@ section {
   transition: 0.3s;
 }
 
+
+
 #product-1 {
-  background-image: url(../img/products/1.jpg);
+  background-image: url(../img/products/huruf-timbul.jpg);
   background-size: cover;
   background-position: center center;
 }
 
 #product-2 {
-  background-image: url(../img/products/2.jpg);
+  background-image: url(../img/products/pylon-sign.jpg);
   background-size: cover;
   background-position: center center;
 }
 
 #product-3 {
-  background-image: url(../img/products/3.jpg);
+  background-image: url(../img/products/neon-block.jpg);
   background-size: cover;
   background-position: center 500px;
 }
 
 #product-4 {
-  background-image: url(../img/products/4.jpg);
+  background-image: url(../img/products/billboard.jpg);
   background-size: cover;
   background-position: center center;
 }
 
 #product-5 {
-  background-image: url(../img/products/5.jpg);
+  background-image: url(../img/products/led-flex-design.jpg);
   background-size: cover;
   background-position: center 450px;
 }
 
 #product-6 {
-  background-image: url(../img/products/6.jpg);
+  background-image: url(../img/products/sticker.jpg);
   background-size: cover;
   background-position: center center;
 }
