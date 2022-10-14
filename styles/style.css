@@ -99,7 +99,7 @@ section {
 }
 
 .footer-links:hover {
-  opacity: .9;
+  opacity: .8;
   transition: 0.3s;
 }
 
