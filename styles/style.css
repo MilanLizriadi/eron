@@ -77,7 +77,14 @@ section {
 }
 
 .product-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
   text-shadow: 0 0 10px #000000;
+  padding: 2.5rem;
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.5);
   color: white;
   font-weight: bold;
   position: absolute;
@@ -87,8 +94,8 @@ section {
 }
 
 .product-text:hover {
-  width: 20%;
-  transition: 300ms;
+  margin-left: 2rem;
+  background-color: rgba(0, 0, 0, 0.7);
 }
 
 
